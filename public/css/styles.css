@@ -468,6 +468,22 @@ mark,
   border-radius: 10%;
 }
 
+/* @media (max-width: 500px) {
+  .image-ran{
+    border-radius: 10%;
+    height: 100px;
+    width : 100px;
+  }
+} */
+
+@media screen and (max-width: 600px) {
+  .image-ran{
+    border-radius: 10%;
+    max-height: 300px;
+    max-width:  300px;
+  }
+}
+
 .my-container{
   padding-top: 5%;
   padding-bottom: 5%;
